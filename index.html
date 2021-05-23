@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <script>
+    function convertAmount1(){
+    var theAmount=document.getElementById("UG")
+    var convertedAmount=theAmount.value*0.030
+        alert(theAmount.value+"UGSH in Kenyan Shilling is "+convertedAmount+ " KSH")   
+    }
+    function convertAmount2(){
+    var theAmount=document.getElementById("TZ")
+     var convertedAmount=theAmount.value*0.046
+        alert(theAmount.value+"TZSH in Kenyan Shilling is "+convertedAmount+ " KSH")   
+    }
+    function convertAmount3(){
+    var theAmount=document.getElementById("RW")
+        var convertedAmount=theAmount.value*0.11
+        alert(theAmount.value+"Rwandan Franc in Kenyan Shilling is "+convertedAmount+ " KSH")    
+    }
+    function convertAmount4(){
+    var theAmount=document.getElementById("SD")   
+         var convertedAmount=theAmount.value*0.26
+        alert(theAmount.value+"SDSH in Kenyan Shilling is "+convertedAmount+ " KSH")    
+    }
+    function convertAmount5(){
+    var theAmount=document.getElementById("BD") 
+           var convertedAmount=theAmount.value*0.54
+        alert(theAmount.value+"Burundi franc in Kenyan Shilling is "+convertedAmount+ " KSH")
+         
+    }
+
+
+   </script>
+    </head>
+    <body >
+        <h1>CURRENCY CONVERTER </h1>
+        <p>Enter amount you would like to convert.</p>
+        <form>
+            <div class="body">
+            UGANDA SH TO KSH:<br><br>
+            <input type="text" name="amount" id="UG" value="">
+            <button type="submit" name="submit" onclick="convertAmount1()" id="submit1" >CONVERT</button>
+            <br><br>
+            TANZANIA SH TO KSH:<br><br>
+            <input type="text" name="amount" id="TZ" value="">
+            <button type="submit" name="submit" onclick="convertAmount2()" id="submit2" >CONVERT</button>
+            <br><br>
+            RWANDAN FRANC TO KSH:<br><br>
+            <input type="text" name="amount" id="RW" value="">
+            <button type="submit" name="submit" onclick="convertAmount3()" id="submit3" >CONVERT</button>
+            <br><br>
+            SUDAN SH TO KSH:<br><br>
+            <input type="text" name="amount" id="SD" value="">
+            <button type="submit" name="submit" onclick="convertAmount4()" id="submit4" >CONVERT</button>
+            <br><br>
+            BURUNDI FRANC  TO KSH:<br><br>
+            <input type="text" name="amount" id="BD" value="">
+            <button type="submit" name="submit" onclick="convertAmount5()" id="submit5" >SUBMIT</button>
+
+        </div>
+      
+        </form>
+
+    </body>
+</html>
+
+       
